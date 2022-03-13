@@ -3,6 +3,8 @@ sudo apt-get install geany -y
 sudo apt-get install simavr -y
 sudo apt-get install curl -y
 sudo apt-get install qemu -y
+sudo apt-get install python3-venv -y
+
 
 # java 17
 sudo add-apt-repository ppa:linuxuprising/java
