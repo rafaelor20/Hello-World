@@ -1,27 +1,32 @@
-sudo apt-get install haskell-platform -y
-sudo apt-get install geany -y
-sudo apt-get install simavr -y
-sudo apt-get install curl -y
-sudo apt-get install qemu -y
-sudo apt-get install python3-venv -y
+sudo apt install haskell-platform -y
+sudo apt install geany -y
+sudo apt install simavr -y
+sudo apt install curl -y
+sudo apt install qemu -y
+sudo apt install python3-venv -y
+sudo apt install gdb -y
+sudo apt install gcc-avr
 
+
+#cmake
+sudo apt install cmake
 
 # java 17
 sudo add-apt-repository ppa:linuxuprising/java
-sudo apt-get update
-sudo apt-get install oracle-java17-installer --install-recommends
+sudo apt update
+sudo apt install oracle-java17-installer --install-recommends
 
 # update drivers
 sudo add-apt-repository ppa:kisak/kisak-mesa && sudo dpkg --add-architecture i386 && sudo apt update && sudo apt upgrade && sudo apt install libgl1-mesa-dri:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386 -y
 
 #nomacs
-sudo apt-get install nomacs -y
+sudo apt install nomacs -y
 
 #qalculate
 sudo snap install qalculate -y
 
 # freecad
-sudo apt-get install freecad -y
+sudo apt install freecad -y
 
 # kicad
 sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
@@ -30,8 +35,8 @@ sudo apt install --install-recommends kicad -y
 
 # git
 sudo add-apt-repository ppa:git-core/ppa
-sudo apt-get update
-sudo apt-get install git -y
+sudo apt update
+sudo apt install git -y
 
 # set up git
 git config --global user.name "Rafael Oliveira Rosário"
@@ -88,24 +93,28 @@ sudo apt-get install boot-repair -y
 
 # qBittorrent Stable
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
-sudo apt-get update && sudo apt-get install qbittorrent -y
+sudo apt update && sudo apt install qbittorrent -y
+
+# okular leitor de pdf
+sudo apt install okular -y
+
 
 # smplayer
 sudo add-apt-repository ppa:rvm/smplayer 
-sudo apt-get update 
-sudo apt-get install smplayer smplayer-themes smplayer-skins -y
+sudo apt update 
+sudo apt install smplayer smplayer-themes smplayer-skins -y
 
 # syncthing
 sudo curl -s -o /usr/share/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
 sudo apt-get upgrade ca-certificates
 echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
-sudo apt-get update
-sudo apt-get install syncthing -y
+sudo apt update
+sudo apt install syncthing -y
 
 # OBS
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt update
-sudo apt-get update && sudo apt-get install obs-studio -y
+sudo apt update && sudo apt-get install obs-studio -y
 
 # lutris
 #sudo add-apt-repository ppa:lutris-team/lutris
@@ -118,7 +127,7 @@ sudo apt update
 sudo apt install mangohud -y
 
 #retroarch
-sudo add-apt-repository ppa:libretro/stable && sudo apt-get update && sudo apt-get install retroarch -y
+sudo add-apt-repository ppa:libretro/stable && sudo apt update && sudo apt install retroarch -y
 
 # photogimp
 sudo snap install photogimp -y
