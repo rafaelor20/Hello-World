@@ -121,6 +121,11 @@ sudo apt update && sudo apt-get install obs-studio -y
 #sudo apt update
 #sudo apt install lutris -y
 
+# corectrl
+sudo add-apt-repository ppa:ernstp/mesarc
+sudo apt-get update
+sudo apt install corectrl -y
+
 # mangouhd
 sudo add-apt-repository ppa:flexiondotorg/mangohud
 sudo apt update
@@ -131,6 +136,18 @@ sudo add-apt-repository ppa:libretro/stable && sudo apt update && sudo apt insta
 
 # photogimp
 sudo snap install photogimp -y
+
+# flatpak support
+sudo apt install flatpak
+
+# GtkStressTesting
+flatpak install flathub com.leinardi.gst -y
+
+# firmware
+flatpak install flathub org.gnome.Firmware -y
+
+# what ip
+flatpak install flathub org.gabmus.whatip -y
 
 # instala pacotes .deb
 sudo dpkg -i *.deb
