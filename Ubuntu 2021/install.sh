@@ -138,7 +138,10 @@ sudo add-apt-repository ppa:libretro/stable && sudo apt update && sudo apt insta
 sudo snap install photogimp -y
 
 # flatpak support
-sudo apt install flatpak
+sudo apt install flatpak -y
+
+# add flathub reposity
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
 # GtkStressTesting
 flatpak install flathub com.leinardi.gst -y
