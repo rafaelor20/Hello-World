@@ -6,6 +6,7 @@ sudo apt install qemu -y
 sudo apt install python3-venv -y
 sudo apt install gdb -y
 sudo apt install gcc-avr
+sudo apt install nodejs
 
 
 #cmake
