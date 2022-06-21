@@ -1,16 +1,23 @@
-sudo apt install haskell-platform -y
 sudo apt install geany -y
 sudo apt install simavr -y
 sudo apt install curl -y
 sudo apt install qemu -y
 sudo apt install python3-venv -y
 sudo apt install gdb -y
-sudo apt install gcc-avr
-sudo apt install nodejs
+sudo apt install gcc-avr -y
 
+
+# nodejs
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt install nodejs -y
+sudo apt install npm -y
+
+
+# react-native
+sudo npm -g install create-react-app
 
 #cmake
-sudo apt install cmake
+sudo apt install cmake -y
 
 # java 17
 sudo add-apt-repository ppa:linuxuprising/java
@@ -19,6 +26,10 @@ sudo apt install oracle-java17-installer --install-recommends
 
 # update drivers
 sudo add-apt-repository ppa:kisak/kisak-mesa && sudo dpkg --add-architecture i386 && sudo apt update && sudo apt upgrade && sudo apt install libgl1-mesa-dri:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386 -y
+
+# rar
+sudo apt install unrar
+sudo apt install rar 
 
 #nomacs
 sudo apt install nomacs -y
