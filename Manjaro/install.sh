@@ -18,13 +18,15 @@ sudo pamac install megasync-bin
 sudo pamac install syncthing
 sudo pamac install qbittorrent
 sudo pamac install jdownloader
-
+sudo pamac install ums
 sudo pamac install nomacs 
 sudo pamac install qalculate-qt
 sudo pamac install iriunwebcam-bin
 
+sudo pamac install mono
+sudo pamac install monodevelop-versioncontrol-bin
 sudo pamac install wine
-
+sudo pamac install lutris
 sudo pamac install retroarch
 
 
