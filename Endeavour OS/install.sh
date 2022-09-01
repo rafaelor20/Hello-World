@@ -8,54 +8,54 @@ sudo systemctl enable bluetooth
 
 #update packages
 pacman -Syu
-sudo pacman -S /
-geany /
-qemu-full /
-gdb /
-avr-gcc /
-nodejs /
-npm / 
-cmake /
-jdk17-openjdk /
-nomacs /
-libqalculate /
-qalculate-qt /
-kicad /
-docker /
-wine /
-wine-mono /
-winetricks /
-barrier /
-qbittorrent /
-okular /
-smplayer /
-syncthing /
-lutris /
+sudo pacman -S \
+geany \
+qemu-full \
+gdb \
+avr-gcc \
+nodejs \
+npm \
+cmake \
+jdk17-openjdk \
+nomacs \
+libqalculate \
+qalculate-qt \
+kicad \
+docker \
+wine \
+wine-mono \
+winetricks \
+barrier \
+qbittorrent \
+okular \
+smplayer \
+syncthing \
+lutris \
 retroarch retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui libretro-core-info
 
 #update AUR packages
 yay
-yay -S /
-visual-studio-code-bin /
-simavr /
-brave-bin /
-ventoy-bin /
-jdownloader2 /
-google-chrome /
-megasync /
-dropbox /
-iriunwebcam-bin /
-obs-studio-git /
-mangoapp /
-mangohud /
-anydesk-bin /
-ums /
-duckstation-git /
-bottles /
-heroic-games-launcher-bin /
-protonup-qt /
-proton-ge-custom-bin /
-protontricks /
+yay -S \
+visual-studio-code-bin \
+simavr \
+brave-bin \
+ventoy-bin \
+jdownloader2 \
+google-chrome \
+megasync \
+dropbox \
+iriunwebcam-bin \
+obs-studio-git \
+mangoapp \
+mangohud \
+anydesk-bin \
+ums \
+duckstation-git \
+bottles \
+heroic-games-launcher-bin \
+protonup-qt \
+proton-ge-custom-bin \
+protontricks \
 
 #remove package
 #yay -R package_name
