@@ -1,14 +1,17 @@
-#install kernel lts
-sudo pacman -S linux-lts linux-lts-headers
-
-#make bluetooth work
-sudo pacman -S --needed bluez bluez-utils
-sudo pacman -S blueberry
-sudo systemctl enable bluetooth
-
 #update packages
 pacman -Syu
-sudo pacman -S \
+
+#install kernel lts
+sudo pacman -S --needed linux-lts linux-lts-headers
+
+#make bluetooth work
+#sudo pacman -S --needed bluez bluez-utils  bluez-plugins
+#sudo pacman -S --needed blueberry
+#sudo systemctl enable bluetooth
+sudo pacman -S --needed blueman
+
+#install packages
+sudo pacman -S --needed \
 geany \
 qemu-full \
 gdb \
@@ -17,7 +20,10 @@ nodejs \
 npm \
 cmake \
 jdk17-openjdk \
+android-tools \
+nextcloud nextcloud-client \
 nomacs \
+acetoneiso2 \
 libqalculate \
 qalculate-qt \
 kicad \
@@ -26,26 +32,31 @@ wine \
 wine-mono \
 winetricks \
 barrier \
+obs-studio \
 qbittorrent \
 okular \
 smplayer \
+kodi \
 syncthing \
 lutris \
 retroarch retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui libretro-core-info
 
 #update AUR packages
 yay
-yay -S \
+yay -S --needed \
 visual-studio-code-bin \
 simavr \
+android-sdk-platform-tools \
+android-studio \
+waydroid \
+android-sdk \
 brave-bin \
 ventoy-bin \
 jdownloader2 \
 google-chrome \
-megasync \
+megasync-bin \
 dropbox \
 iriunwebcam-bin \
-obs-studio-git \
 mangoapp \
 mangohud \
 anydesk-bin \
@@ -56,11 +67,12 @@ heroic-games-launcher-bin \
 protonup-qt \
 proton-ge-custom-bin \
 protontricks \
+game-devices-udev \
 
 #remove package
 #yay -R package_name
 
-sudo pacaman -R firefox
+sudo pacman -R firefox
 
 # react-native
 npm -g install create-react-app
