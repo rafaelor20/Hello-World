@@ -5,10 +5,10 @@ pacman -Syu
 sudo pacman -S --needed linux-lts linux-lts-headers
 
 #make bluetooth work
-#sudo pacman -S --needed bluez bluez-utils  bluez-plugins
 #sudo pacman -S --needed blueberry
-#sudo systemctl enable bluetooth
 sudo pacman -S --needed blueman
+#sudo pacman -S --needed bluez bluez-utils  bluez-plugins pulseaudio-bluetooth
+sudo systemctl enable bluetooth
 
 #install packages
 sudo pacman -S --needed \
