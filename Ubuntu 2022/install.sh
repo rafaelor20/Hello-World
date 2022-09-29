@@ -1,11 +1,20 @@
-sudo apt install geany -y
-sudo apt install simavr -y
-sudo apt install curl -y
-sudo apt install qemu -y
-sudo apt install python3-venv -y
-sudo apt install gdb -y
-sudo apt install gcc-avr -y
+sudo apt install /
+geany /
+simavr /
+curl /
+qemu /
+gdb /
+gcc-avr /
+cmake /
+unrar /
+rar /
+nomcas /
+qalculate /
+okular /
+-y
 
+# barrier
+sudo snap install barrier -y
 
 # nodejs
 curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -16,34 +25,6 @@ sudo apt install npm -y
 # react-native
 sudo npm -g install create-react-app
 
-#cmake
-sudo apt install cmake -y
-
-# java 17
-sudo add-apt-repository ppa:linuxuprising/java
-sudo apt update
-sudo apt install oracle-java17-installer --install-recommends
-
-# update drivers
-sudo add-apt-repository ppa:kisak/kisak-mesa && sudo dpkg --add-architecture i386 && sudo apt update && sudo apt upgrade && sudo apt install libgl1-mesa-dri:i386 mesa-vulkan-drivers mesa-vulkan-drivers:i386 -y
-
-# rar
-sudo apt install unrar
-sudo apt install rar 
-
-#nomacs
-sudo apt install nomacs -y
-
-#qalculate
-sudo snap install qalculate -y
-
-# freecad
-sudo apt install freecad -y
-
-# kicad
-sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
-sudo apt update
-sudo apt install --install-recommends kicad -y
 
 # git
 sudo add-apt-repository ppa:git-core/ppa
@@ -95,8 +76,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser -y
 
-# barrier
-sudo snap install barrier -y
+
 
 # boot-repair
 sudo add-apt-repository ppa:yannubuntu/boot-repair
@@ -106,10 +86,6 @@ sudo apt-get install boot-repair -y
 # qBittorrent Stable
 sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable
 sudo apt update && sudo apt install qbittorrent -y
-
-# okular leitor de pdf
-sudo apt install okular -y
-
 
 # smplayer
 sudo add-apt-repository ppa:rvm/smplayer 
