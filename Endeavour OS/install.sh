@@ -15,6 +15,7 @@ sudo pacman -S --needed \
 geany \
 qemu-full \
 gdb \
+flatpak \
 avr-gcc \
 nodejs \
 npm \
@@ -71,6 +72,7 @@ proton-ge-custom-bin \
 protontricks \
 game-devices-udev \
 virtualbox-ext-oracle \
+onlyoffice-bin
 
 #remove package
 #yay -R package_name
