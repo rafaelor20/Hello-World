@@ -1,8 +1,11 @@
 #update packages
-pacman -Syu
+sudo pacman -Syu
+
+#update databse
+sudo pacman -Syy
 
 #install kernel lts
-sudo pacman -S --needed linux-lts linux-lts-headers
+#sudo pacman -S --needed linux-lts linux-lts-headers
 
 #make bluetooth work
 #sudo pacman -S --needed blueberry
@@ -48,7 +51,7 @@ retroarch retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui libr
 #remove package
 #yay -R package_name
 
-#sudo pacman -R firefox
+sudo pacman -R firefox
 
 #snap packages
 #sudo snap install \
