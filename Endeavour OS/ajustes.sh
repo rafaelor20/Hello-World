@@ -1,5 +1,6 @@
 # react-native
 npm -g install create-react-app
+npm install --save styled-components
 npm update
 npm audit fix --force
 
