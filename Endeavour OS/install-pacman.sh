@@ -28,7 +28,6 @@ jdk17-openjdk \
 android-tools \
 nextcloud nextcloud-client \
 nomacs \
-barrier \
 acetoneiso2 \
 libqalculate \
 qalculate-qt \
