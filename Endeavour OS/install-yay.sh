@@ -19,7 +19,4 @@ iriunwebcam-bin \
 anydesk-bin \
 ums \
 duckstation-git \
-bottles \
-heroic-games-launcher-bin \
-virtualbox-ext-oracle \
 onlyoffice-bin

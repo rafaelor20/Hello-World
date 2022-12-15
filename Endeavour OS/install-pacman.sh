@@ -31,7 +31,6 @@ nomacs \
 acetoneiso2 \
 libqalculate \
 qalculate-qt \
-kicad \
 virtualbox \
 virtualbox-guest-iso \
 docker \
@@ -42,7 +41,6 @@ obs-studio \
 qbittorrent \
 okular \
 smplayer \
-kodi \
 syncthing \
 lutris \
 retroarch retroarch-assets-xmb retroarch-assets-ozone retroarch-assets-glui libretro-core-info
