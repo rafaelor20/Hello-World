@@ -19,4 +19,5 @@ iriunwebcam-bin \
 anydesk-bin \
 ums \
 duckstation-git \
-onlyoffice-bin
+onlyoffice-bin \
+asf
