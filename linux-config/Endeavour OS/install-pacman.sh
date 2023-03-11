@@ -16,18 +16,14 @@ sudo pacman -S --needed blueman
 #install packages
 sudo pacman -S --needed \
 scrcpy \
-
 flatpak \
-
 nomacs \
 acetoneiso2 \
 libqalculate \
 qalculate-qt \
 virtualbox \
 virtualbox-guest-iso \
-
 foliate \
-
 obs-studio \
 qbittorrent \
 okular \

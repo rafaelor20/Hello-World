@@ -1,3 +1,0 @@
-wine \
-wine-mono \
-winetricks \
