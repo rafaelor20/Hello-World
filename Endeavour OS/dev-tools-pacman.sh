@@ -1,5 +1,4 @@
 sudo pacman -S --needed \
-geany \
 qemu-full \
 gdb \
 avr-gcc \
@@ -8,5 +7,6 @@ npm \
 cmake \
 jdk17-openjdk \
 android-tools \
-
 docker \
+dbeaver \
+jdk-openjdk

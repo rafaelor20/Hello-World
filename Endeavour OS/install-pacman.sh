@@ -26,6 +26,7 @@ qalculate-qt \
 virtualbox \
 virtualbox-guest-iso \
 
+foliate \
 
 obs-studio \
 qbittorrent \
