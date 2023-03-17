@@ -30,7 +30,6 @@ okular \
 smplayer \
 syncthing \
 
-
 #remove package
 #yay -R package_name
 

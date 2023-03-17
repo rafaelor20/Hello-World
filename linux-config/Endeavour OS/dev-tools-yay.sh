@@ -1,5 +1,4 @@
 yay -S --needed \
-
 #official packages
 qemu-full \
 gdb \
@@ -12,7 +11,6 @@ android-tools \
 docker \
 dbeaver \
 jdk-openjdk
-
 #aur packages
 visual-studio-code-bin \
 android-sdk-platform-tools \

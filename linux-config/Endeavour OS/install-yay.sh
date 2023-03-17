@@ -6,7 +6,6 @@ yay
 
 #install packages
 yay -S --needed \
-
 #official packages
 scrcpy \
 flatpak \
@@ -22,7 +21,6 @@ qbittorrent \
 okular \
 smplayer \
 syncthing \
-
 #aur packages
 guiscrcpy \
 snapd \
