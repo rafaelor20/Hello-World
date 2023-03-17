@@ -33,4 +33,5 @@ dropbox \
 iriunwebcam-bin \
 anydesk-bin \
 ums \
-onlyoffice-bin 
+onlyoffice-bin \
+noisetorch
