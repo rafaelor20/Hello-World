@@ -5,8 +5,9 @@ yay -R firefox
 yay
 
 #install packages
-yay -S --needed \
+
 #official packages
+yay -S --needed \
 scrcpy \
 flatpak \
 nomacs \
@@ -22,6 +23,7 @@ okular \
 smplayer \
 syncthing \
 #aur packages
+yay -S --needed \
 guiscrcpy \
 snapd \
 brave-bin \
