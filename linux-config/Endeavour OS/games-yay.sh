@@ -7,4 +7,3 @@ gamemode lib32-gamemode
 #aur packages
 yay -S --needed \
 duckstation-git \
-archisteamfarm
