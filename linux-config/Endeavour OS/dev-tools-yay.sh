@@ -5,6 +5,7 @@ gdb \
 avr-gcc \
 nodejs \
 npm \
+postgresql \
 cmake \
 android-tools \
 docker \
