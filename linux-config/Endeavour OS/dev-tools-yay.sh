@@ -14,6 +14,7 @@ jdk-openjdk
 #aur packages
 yay -S --needed \
 visual-studio-code-bin \
+eclipse-java \
 android-sdk-platform-tools \
 android-studio \
 android-sdk \

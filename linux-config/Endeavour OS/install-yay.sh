@@ -25,6 +25,7 @@ syncthing \
 #aur packages
 yay -S --needed \
 guiscrcpy \
+anydesk-bin \
 snapd \
 brave-bin \
 google-chrome \
