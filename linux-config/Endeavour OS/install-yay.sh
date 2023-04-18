@@ -10,7 +10,6 @@ yay
 yay -S --needed \
 scrcpy \
 flatpak \
-nomacs \
 acetoneiso2 \
 libqalculate \
 qalculate-qt \
@@ -25,6 +24,7 @@ syncthing \
 #aur packages
 yay -S --needed \
 guiscrcpy \
+nomacs-git \
 anydesk-bin \
 snapd \
 brave-bin \
