@@ -21,6 +21,7 @@ qbittorrent \
 okular \
 smplayer \
 syncthing \
+gparted \
 #aur packages
 yay -S --needed \
 guiscrcpy \

@@ -10,7 +10,8 @@ cmake \
 android-tools \
 docker \
 dbeaver \
-jdk-openjdk
+jdk-openjdk \
+mysql-workbench \
 #aur packages
 yay -S --needed \
 visual-studio-code-bin \
