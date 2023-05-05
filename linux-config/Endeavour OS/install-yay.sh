@@ -38,4 +38,5 @@ iriunwebcam-bin \
 anydesk-bin \
 ums \
 onlyoffice-bin \
+system-monitoring-center \
 noisetorch
