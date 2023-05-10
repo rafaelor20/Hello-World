@@ -1,3 +1,5 @@
+#Add sudoloop: true to your ~/.config/yay/config.json. A simple way to do this is yay --save --sudoloop
+
 #unninstall packages
 yay -R firefox
 
