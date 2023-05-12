@@ -5,7 +5,6 @@ gdb \
 avr-gcc \
 nodejs \
 npm \
-nvm \
 postgresql \
 cmake \
 android-tools \
@@ -15,6 +14,7 @@ jdk-openjdk \
 mysql-workbench \
 #aur packages
 yay -S --needed \
+nvm \
 visual-studio-code-bin \
 eclipse-java \
 android-sdk-platform-tools \
