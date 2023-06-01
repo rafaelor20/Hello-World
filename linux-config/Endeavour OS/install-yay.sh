@@ -1,5 +1,5 @@
 #unninstall packages
-yay -R firefox
+#yay -R firefox
 
 #update packages
 yay
