@@ -9,6 +9,7 @@ postgresql \
 cmake \
 android-tools \
 docker \
+docker-compose \
 dbeaver \
 jdk-openjdk \
 mysql-workbench \
