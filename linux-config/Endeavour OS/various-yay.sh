@@ -10,6 +10,7 @@ yay
 
 #official packages
 yay -S --needed \
+deskreen \
 scrcpy \
 flatpak \
 acetoneiso2 \
