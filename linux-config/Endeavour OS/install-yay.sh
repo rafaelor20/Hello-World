@@ -5,4 +5,4 @@
 yay
 
 #install packages
-yay -S --needed --sudoloop --noprovides --answerdiff None --answerclean None --mflags "--noconfirm" \
+yay --sudoloop "--noconfirm"
