@@ -10,10 +10,9 @@ lutris \
 steam \
 gamemode lib32-gamemode \
 retroarch retroarch-assets-xmb \
+retroarch-standalone-service \
 retroarch-assets-ozone \
 retroarch-assets-glui libretro-core-info \
-ppsspp
-#aur packages
-yay -S --needed \
+ppsspp \
 duckstation-git \
-retroarch-standalone-service \
+

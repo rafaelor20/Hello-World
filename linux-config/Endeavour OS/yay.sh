@@ -1,4 +1,4 @@
 yay --sudoloop "--noconfirm"
 
 # clean cache
- yay -Yc
+yay -Yc
