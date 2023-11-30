@@ -8,6 +8,7 @@ nodejs \
 npm \
 nvm \
 postgresql \
+mongodb \
 docker \
 docker-compose \
 dbeaver \
@@ -17,5 +18,5 @@ eclipse-java \
 android-sdk-platform-tools \
 android-studio \
 android-sdk \
-android-tools
+android-tools \
 
