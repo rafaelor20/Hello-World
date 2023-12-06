@@ -8,7 +8,7 @@ nodejs \
 npm \
 nvm \
 postgresql \
-mongodb \
+mongodb-bin \
 docker \
 docker-compose \
 dbeaver \
