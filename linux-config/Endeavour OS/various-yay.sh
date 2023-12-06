@@ -28,3 +28,7 @@ iriunwebcam-bin \
 scrcpy \
 guiscrcpy \
 acetoneiso2 \
+libreoffice-fresh \
+libreoffice-extension-writer2latex \
+libreoffice-extension-texmaths \
+libreoffice-fresh-pt-br
