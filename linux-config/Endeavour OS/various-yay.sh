@@ -16,15 +16,12 @@ nomacs-git \
 anydesk-bin \
 megasync-bin \
 dropbox \
-anydesk-bin \
 noisetorch \
 obs-studio \
 ventoy-bin \
-onlyoffice-bin \
 deskreen \
 ums \
 foliate \
-iriunwebcam-bin \
 scrcpy \
 guiscrcpy \
 acetoneiso2 \
