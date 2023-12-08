@@ -3,6 +3,8 @@ brave-bin \
 google-chrome \
 flatpak \
 snapd \
+input-leap \
+kwalletmanager \
 libqalculate \
 qalculate-qt \
 virtualbox \
