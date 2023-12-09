@@ -12,6 +12,7 @@ virtualbox-guest-iso \
 qbittorrent \
 jdownloader2 \
 syncthing \
+syncthingtray \
 bitwarden \
 nomacs-git \
 anydesk-bin \
