@@ -22,7 +22,6 @@ noisetorch \
 obs-studio \
 ventoy-bin \
 deskreen \
-ums \
 foliate \
 scrcpy \
 guiscrcpy \
