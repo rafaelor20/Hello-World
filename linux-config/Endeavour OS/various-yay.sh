@@ -11,7 +11,6 @@ virtualbox \
 virtualbox-guest-iso \
 qbittorrent \
 jdownloader2 \
-smplayer \
 syncthing \
 bitwarden \
 nomacs-git \
