@@ -9,10 +9,10 @@ libqalculate \
 qalculate-qt \
 virtualbox \
 virtualbox-guest-iso \
+ventoy-bin \
 qbittorrent \
 jdownloader2 \
 syncthing \
-syncthingtray \
 bitwarden \
 nomacs-git \
 anydesk-bin \
@@ -20,7 +20,8 @@ megasync-bin \
 dropbox \
 noisetorch \
 obs-studio \
-ventoy-bin \
+iriunwebcam-bin \
+droidcam \
 deskreen \
 foliate \
 scrcpy \
