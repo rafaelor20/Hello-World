@@ -1,2 +1,2 @@
 # Hello-World
-# Repositório usado para testar ambiente de desenvolvimento e configurar sistemas linux.
+# Repositório usado para preparar e testar ambiente de desenvolvimento e configurar sistemas linux.
