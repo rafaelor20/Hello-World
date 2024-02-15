@@ -14,5 +14,4 @@ retroarch-standalone-service \
 retroarch-assets-ozone \
 retroarch-assets-glui libretro-core-info \
 ppsspp \
-duckstation-git \
-
+duckstation-git 
