@@ -1,4 +1,4 @@
-yay -S --needed \
+yay -S --needed --sudoloop "--noconfirm" \
 brave-bin \
 google-chrome \
 flatpak \
