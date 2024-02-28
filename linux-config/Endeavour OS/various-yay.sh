@@ -4,7 +4,7 @@ google-chrome \
 flatpak \
 snapd \
 input-leap \
-kwalletmanager \
+gnome-keyring \
 libqalculate \
 qalculate-qt \
 virtualbox \
