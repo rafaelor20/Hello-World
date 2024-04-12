@@ -6,6 +6,7 @@ simavr \
 cmake \
 nodejs \
 npm \
+mvn \
 nvm \
 postgresql \
 mongodb-bin \
