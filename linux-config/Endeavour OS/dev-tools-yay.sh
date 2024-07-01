@@ -8,6 +8,7 @@ nodejs \
 npm \
 mvn \
 nvm \
+minikube \
 postgresql \
 mongodb-bin \
 docker \
