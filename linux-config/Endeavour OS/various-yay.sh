@@ -18,14 +18,7 @@ nomacs-git \
 anydesk-bin \
 megasync-bin \
 dropbox \
-noisetorch \
 obs-studio \
-iriunwebcam-bin \
-droidcam \
-deskreen \
-foliate \
-scrcpy \
-guiscrcpy \
 acetoneiso2 \
 libreoffice-fresh \
 libreoffice-extension-writer2latex \

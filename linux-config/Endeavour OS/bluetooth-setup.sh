@@ -1,7 +1,4 @@
-sudo systemctl enable bluetooth
+yay -S --needed --sudoloop "--noconfirm" \
+bluez bluez-utils bluedevil
 
-sudo pacman -S --needed bluez bluez-utils
-
-sudo pacman -S --needed blueman
-sudo pacman -S --needed bluedevil
-sudo pacman -S --needed blueberry
+sudo systemctl enable --now bluetooth
