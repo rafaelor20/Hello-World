@@ -2,6 +2,7 @@ yay -S --needed \
 qemu-full \
 gdb \
 avr-gcc \
+hyperfine \
 simavr \
 cmake \
 nodejs \
