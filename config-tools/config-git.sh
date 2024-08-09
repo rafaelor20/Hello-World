@@ -5,3 +5,5 @@ git config --global init.defaultBranch main
 git config --global color.ui auto
 git config --get user.name
 git config --get user.email
+
+git config pull.rebase false
