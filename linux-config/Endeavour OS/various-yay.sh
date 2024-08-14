@@ -20,6 +20,7 @@ megasync-bin \
 dropbox \
 obs-studio \
 acetoneiso2 \
+zip unzip \
 libreoffice-fresh \
 libreoffice-extension-writer2latex \
 libreoffice-extension-texmaths \
