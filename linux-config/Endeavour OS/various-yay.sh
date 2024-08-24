@@ -21,6 +21,7 @@ dropbox \
 obs-studio \
 noisetorch \
 acetoneiso2 \
+zip unzip \
 libreoffice-fresh \
 libreoffice-extension-writer2latex \
 libreoffice-extension-texmaths \
