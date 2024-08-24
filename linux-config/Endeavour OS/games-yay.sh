@@ -8,6 +8,7 @@
 yay -S --needed \
 lutris \
 steam \
+wine-nine \
 gamemode lib32-gamemode \
 retroarch retroarch-assets-xmb \
 retroarch-standalone-service \

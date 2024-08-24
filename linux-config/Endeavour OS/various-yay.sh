@@ -19,6 +19,7 @@ anydesk-bin \
 megasync-bin \
 dropbox \
 obs-studio \
+noisetorch \
 acetoneiso2 \
 libreoffice-fresh \
 libreoffice-extension-writer2latex \
