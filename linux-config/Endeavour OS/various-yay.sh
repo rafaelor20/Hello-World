@@ -7,6 +7,7 @@ input-leap \
 gnome-keyring \
 libqalculate \
 qalculate-qt \
+akm \
 virtualbox \
 virtualbox-guest-iso \
 ventoy-bin \
