@@ -1,3 +1,6 @@
+# nvidia
+sudo systemctl enable --now nvidia-resume.service
+
 #docker
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER

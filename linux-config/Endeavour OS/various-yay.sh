@@ -8,6 +8,7 @@ gnome-keyring \
 libqalculate \
 qalculate-qt \
 akm \
+grub-customizer \
 virtualbox \
 virtualbox-guest-iso \
 ventoy-bin \
