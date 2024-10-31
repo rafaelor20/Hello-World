@@ -1,3 +1,5 @@
+yay -S python-pip
+
 # Create a virtual environment
 python -m venv myenv
 
