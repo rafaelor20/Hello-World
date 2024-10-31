@@ -1,4 +1,4 @@
-yay -S python-pip
+yay -S python-pip python-pipx
 
 # Create a virtual environment
 python -m venv myenv
