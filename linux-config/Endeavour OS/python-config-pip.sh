@@ -1,3 +1,5 @@
+yay -S python-pip python-pipx
+
 # Create a virtual environment
 python -m venv myenv
 
@@ -7,6 +9,5 @@ source myenv/bin/activate
 # Install the math package using pip
 pip install math
 
-yay python-pipx
+echo "alias activate_pip='source ~/myenv/bin/activate'" >> ~/.bashrc
 
-#pipx install math
