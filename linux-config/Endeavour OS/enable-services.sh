@@ -8,8 +8,10 @@ sudo usermod -aG docker $USER
 #bluetooth
 sudo systemctl enable --now bluetooth
 
-#PostgreSQL
+#snapd
+systemctl enable --now snapd.service
 
+#PostgreSQL
 sudo su - postgres -c "initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'"
 sudo systemctl enable --now postgresql.service
 sudo -u postgres createuser --interactive
