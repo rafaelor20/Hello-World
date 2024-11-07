@@ -20,6 +20,9 @@ nomacs-git \
 anydesk-bin \
 megasync-bin \
 dropbox \
+blugon \
+fzf \
+rclone \
 obs-studio \
 noisetorch \
 acetoneiso2 \
