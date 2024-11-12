@@ -18,6 +18,5 @@ sudo -u postgres createuser --interactive
 sudo -u postgres createdb postgresql
 
 #MongoDB
-
 sudo systemctl enable --now mongodb.service
 
