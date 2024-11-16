@@ -1,0 +1,17 @@
+[Desktop Entry]
+Categories=Network;FileTransfer;P2P;Qt;
+Comment[pt_BR]=Baixe e compartilhe arquivos pelo BitTorrent
+Comment=Download and share files over BitTorrent
+Exec=qbittorrent %U
+GenericName[pt_BR]=Cliente BitTorrent
+GenericName=BitTorrent client
+Icon=qbittorrent
+Keywords=bittorrent;torrent;magnet;download;p2p;
+MimeType=application/x-bittorrent;x-scheme-handler/magnet;
+Name[pt_BR]=qBittorrent
+Name=qBittorrent
+SingleMainWindow=true
+StartupNotify=false
+StartupWMClass=qbittorrent
+Terminal=false
+Type=Application

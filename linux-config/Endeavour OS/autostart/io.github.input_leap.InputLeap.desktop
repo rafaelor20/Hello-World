@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=Utility;Network;
+Comment=Keyboard and mouse sharing solution
+Exec=input-leap
+Icon=io.github.input_leap.InputLeap
+Keywords=keyboard;mouse;sharing;network;share;
+Name=Input Leap
+Terminal=false
+Type=Application
