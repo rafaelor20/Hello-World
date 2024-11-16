@@ -14,10 +14,7 @@ nvm \
 docker \
 docker-compose \
 visual-studio-code-bin \
-gparted \
-akm \
-linux-lts \
-linux-lts-headers \
+bluez bluez-utils bluedevil \
 nvidia-inst \
 brave-bin \
 google-chrome \
@@ -27,6 +24,8 @@ input-leap \
 gnome-keyring \
 libqalculate \
 qalculate-qt \
+akm \
+grub-customizer \
 virtualbox \
 virtualbox-guest-iso \
 ventoy-bin \
@@ -38,31 +37,43 @@ nomacs-git \
 anydesk-bin \
 megasync-bin \
 dropbox \
+blugon \
+rclone \
 obs-studio \
+noisetorch \
 acetoneiso2 \
 zip unzip \
 libreoffice-fresh \
 libreoffice-extension-writer2latex \
 libreoffice-extension-texmaths \
 libreoffice-fresh-pt-br \
-bluez bluez-utils bluedevil \
+gparted \
 wine \
 wine-mono \
 lib32-libpulse \
 winetricks \
-lutris \
-steam \
-gamemode lib32-gamemode \
-retroarch retroarch-assets-xmb \
-retroarch-standalone-service \
-retroarch-assets-ozone \
-retroarch-assets-glui libretro-core-info \
-ppsspp
+python-pip python-pipx
 
 # clean cache
 yay -Yc
 
-grub-mkconfig -o /boot/grub/grub.cfg
+nvidia-modprobe
+
+# nvidia
+sudo systemctl enable --now nvidia-resume.service
+
+#docker
+sudo systemctl enable --now docker
+sudo usermod -aG docker $USER
+
+#bluetooth
+sudo systemctl enable --now bluetooth
+
+#snapd
+systemctl enable --now snapd.service
+
+sudo snap install sosumi
+snap run sosumi
 
 # set up git
 git config --global user.name "Rafael Oliveira Rosário"
@@ -74,16 +85,14 @@ git config --get user.email
 
 git config pull.rebase false
 
-sudo systemctl enable --now bluetooth
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
 
-#docker
-sudo systemctl enable --now docker
-sudo usermod -aG docker $USER
+# Create a virtual environment
+python -m venv myenv
 
-sudo dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
-sudo chmod 0600 /swapfile
-sudo mkswap -U clear /swapfile
-sudo swapon /swapfile
-sudo nano /etc/fstab
-# add to last line
-#/swapfile none swap defaults 0 0
+# Activate the virtual environment
+source myenv/bin/activate
+
+echo "alias activate_pip='source ~/myenv/bin/activate'" >> ~/.bashrc

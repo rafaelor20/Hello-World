@@ -9,7 +9,7 @@ sudo usermod -aG docker $USER
 sudo systemctl enable --now bluetooth
 
 #snapd
-systemctl enable --now snapd.service
+sudo systemctl enable --now snapd.service
 
 #PostgreSQL
 sudo su - postgres -c "initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'"
@@ -18,6 +18,5 @@ sudo -u postgres createuser --interactive
 sudo -u postgres createdb postgresql
 
 #MongoDB
-
 sudo systemctl enable --now mongodb.service
 
