@@ -22,6 +22,9 @@ echo 'br_netfilter' | sudo tee /etc/modules-load.d/k8s.conf
 
 #jenkins
 sudo systemctl enable --now jenkins
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo nano /etc/jenkins/jenkins.conf
+sudo systemctl restart jenkins
 
 #bluetooth
 sudo systemctl enable --now bluetooth
