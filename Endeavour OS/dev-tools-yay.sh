@@ -7,7 +7,7 @@ simavr \
 cmake \
 nodejs \
 npm \
-mvn \
+maven \
 nvm \
 docker \
 docker-compose \
