@@ -14,66 +14,15 @@ nvm \
 docker \
 docker-compose \
 visual-studio-code-bin \
-bluez bluez-utils bluedevil \
-nvidia-inst \
-brave-bin \
-google-chrome \
-flatpak \
-snapd \
-input-leap \
-gnome-keyring \
-libqalculate \
-qalculate-qt \
-akm \
-grub-customizer \
-virtualbox \
-virtualbox-guest-iso \
-ventoy-bin \
-qbittorrent \
-jdownloader2 \
-syncthing \
-bitwarden \
-nomacs-git \
-anydesk-bin \
-megasync-bin \
-dropbox \
-blugon \
-rclone \
-obs-studio \
-noisetorch \
-acetoneiso2 \
-zip unzip \
-libreoffice-fresh \
-libreoffice-extension-writer2latex \
-libreoffice-extension-texmaths \
-libreoffice-fresh-pt-br \
-gparted \
-wine \
-wine-mono \
-lib32-libpulse \
-winetricks \
 python-pip python-pipx
 
 # clean cache
 yay -Yc
 
-nvidia-modprobe
-
-# nvidia
-sudo systemctl enable --now nvidia-resume.service
 
 #docker
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER
-
-#bluetooth
-sudo systemctl enable --now bluetooth
-
-#snapd
-systemctl enable --now snapd.service
-
-sudo snap install sosumi
-snap run sosumi
 
 # set up git
 git config --global user.name "Rafael Oliveira Rosário"
@@ -96,3 +45,11 @@ python -m venv myenv
 source myenv/bin/activate
 
 echo "alias activate_pip='source ~/myenv/bin/activate'" >> ~/.bashrc
+
+sudo dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
+sudo chmod 0600 /swapfile
+sudo mkswap -U clear /swapfile
+sudo swapon /swapfile
+sudo nano /etc/fstab
+# add to last line
+#/swapfile none swap defaults 0 0
