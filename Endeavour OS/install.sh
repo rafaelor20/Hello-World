@@ -1,4 +1,4 @@
-yay --sudoloop "--noconfirm"
+eos-update --sudoloop "--noconfirm"
 
 yay -S --needed --sudoloop "--noconfirm" \
 qemu-full \
