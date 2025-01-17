@@ -1,1 +1,1 @@
-eos-update --sudoloop "--noconfirm"
+eos-update
