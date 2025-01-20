@@ -9,16 +9,60 @@ simavr \
 cmake \
 nodejs \
 npm \
-mvn \
+maven \
 nvm \
 docker \
 docker-compose \
 visual-studio-code-bin \
-python-pip python-pipx
+kubectl kubelet containerd \
+kubeadm \
+jenkins \
+python-pip python-pipx \
+brave-bin \
+google-chrome \
+flatpak \
+snapd \
+input-leap \
+gnome-keyring \
+libqalculate \
+qalculate-qt \
+akm \
+grub-customizer \
+virtualbox \
+virtualbox-guest-iso \
+ventoy-bin \
+qbittorrent \
+jdownloader2 \
+syncthing \
+bitwarden \
+nomacs-git \
+anydesk-bin \
+megasync-bin \
+dropbox \
+blugon \
+rclone \
+obs-studio \
+noisetorch \
+acetoneiso2 \
+zip unzip \
+libreoffice-fresh \
+libreoffice-extension-writer2latex \
+libreoffice-extension-texmaths \
+libreoffice-fresh-pt-br \
+bluez bluez-utils bluedevil \
+wine \
+wine-mono \
+lib32-libpulse \
+winetricks \
+steam \
+wine-nine
 
 # clean cache
 yay -Yc
 
+
+#bluetooth
+sudo systemctl enable --now bluetooth
 
 #docker
 sudo systemctl enable --now docker
