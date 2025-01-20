@@ -16,7 +16,7 @@ qbittorrent \
 jdownloader2 \
 syncthing \
 bitwarden \
-nomacs-git \
+nomacs \
 anydesk-bin \
 megasync-bin \
 dropbox \
