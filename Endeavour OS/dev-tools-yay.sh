@@ -13,6 +13,11 @@ docker \
 docker-compose \
 visual-studio-code-bin \
 kubectl kubelet containerd \
-kubeadm \
 jenkins \
-tensorboard
+tensorboard \
+vagrant \
+terraform \
+aws-cli-v2 \
+#
+#kubernetes
+kubeadm kubelet kubectl containerd
