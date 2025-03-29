@@ -1,6 +1,9 @@
 # nvidia
 sudo systemctl enable --now nvidia-resume.service
 
+# nvm
+source /usr/share/nvm/init-nvm.sh
+
 #docker
 sudo systemctl enable --now docker
 sudo usermod -aG docker $USER
