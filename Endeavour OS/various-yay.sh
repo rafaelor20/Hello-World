@@ -24,7 +24,6 @@ blugon \
 rclone \
 stremio \
 umu-launcher \
-
 obs-studio \
 noisetorch \
 acetoneiso2 \

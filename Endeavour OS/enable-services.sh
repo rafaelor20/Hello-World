@@ -35,12 +35,3 @@ sudo systemctl enable --now bluetooth
 #snapd
 sudo systemctl enable --now snapd.service
 
-#PostgreSQL
-sudo su - postgres -c "initdb --locale $LANG -E UTF8 -D '/var/lib/postgres/data'"
-sudo systemctl enable --now postgresql.service
-sudo -u postgres createuser --interactive
-sudo -u postgres createdb postgresql
-
-#MongoDB
-sudo systemctl enable --now mongodb.service
-

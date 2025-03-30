@@ -12,7 +12,6 @@ nvm \
 docker \
 docker-compose \
 visual-studio-code-bin \
-kubectl kubelet containerd \
 jenkins \
 tensorboard \
 vagrant \
